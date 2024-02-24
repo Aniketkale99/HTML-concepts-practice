@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>hello2</h2>
+    <h3>hello3</h3>
+    <h4>hello4</h4>
+    <h5>hello5</h5>
+    <h6>hello6</h6>
+
+    <hr>
+  
+    <p>This is my first paragraph </p>
+<a href="https://www.youtube.com/">Youtube</a>
+<!-- breaks the line and goes to next line -->
+<br>
+<!-- Absolute link addittion - this link belongs to other website -->
+<a href="https://www.google.com/">Google</a>
+<br>
+<!--guving the link of other page of our own website -->
+<!-- Relative link addittion - this link belongs to Our own website but different page-->
+<a href="/Youtube video/hello.html">Page2</a>
+<br>
+<a href="/Youtube video/portfolio.html">Portfolio</a>
+
+<hr>
+
+
+<img src="https://www.hindustantimes.com/ht-img/img/2023/04/14/1600x900/ANI-20230408340-0_1681474230799_1681474230799_1681474259537_1681474259537.jpg" alt="Dhoni"/>
+
+<!-- When link is wrong or user or provider has server iossue image does not get uploaded but its name is there using alt -->
+
+<img src="https://www.amazon.com/ht-img/img/2023/04/14/1600x900/ANI-20230408340-0_1681474230799_1681474230799_1681474259537_1681474259537.jpg" alt="Dhoni"/>
+<br>
+
+<!-- Relative Image addittion -->
+
+<img src="/Youtube video/viratKohli.jpg" alt="Virat Kohli"/>
+<hr>
+<br>
+<i>Aniket</i>
+<br>
+<u>SRK</u>
+<br>
+<b>India</b>
+
+<p>Hi my name is <b>Aniket Kale</b>
+<br>
+This is my first try on html website</p>
+
+<!-- Used to create sections- horizontal ruler = hr -->
+<hr>
+<big>This tag print big text</big>
+<br>
+<small>This tag prints small text</small>
+
+<hr>
+<!-- sub script and super scritp -->
+<p>H<sub>2</sub>O
+<br/>
+3<sup>2</sup>=9 </p>
+<hr>
+
+<pre>Ms Dhoni        is the greatest captain of all time --> MSD = GOAT</pre>
+
+<br>
+<hr>
+<!-- opening links in new tab  target aattribute, our main page remains intact -->  
+<a href="https://login.salesforce.com/" target="_main">Salseforce Login</a>
+<br>
+
+<!--  clickable images-->
+<a href="https://www.linkedin.com/notifications/" target="_main"> <img src="https://www.kystognaturturisme.dk/sites/kystognaturturisme.com/files/styles/article_teaser/public/2020-12/linkedInLogo.png?h=ec041e41&itok=1fVVBxCu" alt="Linkdin"  height="200"></a>
+
+<br>
+<a href="/Youtube video/hello.html" target="_main"><img src="/Youtube video/sun.jpg" width="150"></a>
+
+
+
+
+<main>
+
+<!-- Takes the full width of screen when checked on inspect page - Block Tag= <div> -->
+<div>Hello guys
+    <br>
+    Morgen zum alles wie gehts Ihnen?
+</div>
+
+<span>Ciao Ciao</span>
+<hr>
+
+
+<!-- Unordered list -->
+<pre><u>This is an unordered list -ul</u></pre>
+<ul>
+<li>Apple</li>
+<li>Mango</li>
+<li>Raspberry</li>
+<!-- List within list -->
+<li>Raspberry</li>
+<ul>
+    <li>colour:red</li>
+    <li>season:winter</li>
+</ul>
+<li>Strawberry</li>
+<ul>
+    <li>colour:red</li>
+    <li>season:summer</li>
+</ul>
+</ul>
+
+
+<!-- ordered list -->
+<pre><u>This is an ordered list -ol</u></pre>
+<ol>
+<li>Apple</li>
+<li>Mango</li>
+<li>Raspberry</li>
+<!-- List within list -->
+<li>Raspberry</li>
+<ol>
+    <li>colour:red</li>
+    <li>season:winter</li>
+</ol>
+<li>Strawberry</li>
+<ol>
+    <li>colour:red</li>
+    <li>season:summer</li>
+</ol>
+</ol>
+<hr>
+
+
+<!-- creating table -->
+<table border="">
+    <!-- nAMING THE TABLE -->
+    <caption>Student Data</caption>
+<thead>
+<tr>
+    <th>Name</th>
+    <th>Phone no.</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+
+    <td>Aniket </td>
+    <td>9004226568</td>
+</tr>
+<tr>
+    <td>Ravi </td>
+    <td>9004226666</td>
+</tr>
+<tr>
+    <td>Varun</td>
+    <td>9004227777</td>
+</tr>
+</tbody>
+
+</table>
+<hr>
+
+<!-- Form Creation -->
+<h3>This is a Test Form</h3>
+<form action="action.php">
+
+    <input type="text" placeholder="Enter Name">
+    <br>
+    <input type="Password" placeholder="Password">
+    <br>
+    <!-- <input type="radio" value="Class 11" name="class">Class 11
+    <input type="radio" value="Class 12" name="class">Class 12
+    <br> -->
+
+    <!-- completely clickable radio button -->
+    <!-- good for users with weak eyesight or visual impoairment -->
+
+    <p>Select your Class</p>
+    <label for ="01">
+        <input type="radio" value="Class 11" name="class" id="01">Class 11
+    </label>
+
+    <label for="02">
+        <input type="radio" value="Class 12" name="class" id="02">Class 12
+    </label>
+<br>
+
+
+    <!--checkbox creation -->
+<p>Select your fav subject</p>
+<label for="math">
+    <input type="checkbox" value="math" name="subject" id="120">Mathematics
+</label>
+<br>
+
+<label for="phy">
+    <input type="checkbox" value="phy" name="subject" id="121">Physics
+</label>
+
+<br>
+<label for="chem">
+    <input type="checkbox" value="chem" name="subject" id="122">Chemistry
+</label>
+<br>
+
+<label for="Computer Science">
+    <input type="checkbox" value="Computer Science" name="subject" id="123">Computer Science
+</label>
+<br>
+<br>
+
+<!-- Dropdown list creation -->
+<h3>Select your city</h3>
+<select name="city">
+    <option value="Pune">Pune</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Hyderabad">Hyderabad</option>
+</select>
+
+<br>
+<br>
+<!-- text area = similar to feedback area present at the end of form -->
+<textarea name="Feedback" id="124"  placeholder="Give your valuable feedback"></textarea>
+<br>
+<br>
+<input type="submit" value="Submit">
+</form>
+<hr>
+<br>
+<br>
+<!-- website in websie -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=jln2P3H0NoScwRQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+
+<!-- Adding video on our page -->
+<video width="560" height="315" src="/Youtube video/Snapchat-53833626.mp4" controls loop muted > My college project</video>
+</main>
+</body>
+</html>

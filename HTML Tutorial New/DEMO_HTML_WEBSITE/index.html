@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Start header -->
+    <!-- color is given to background table -->
+    <table border="0" , width="100%" cellspacing="0" bgcolor="orange">
+        <!-- here if we dont write td for the main table then it does not get created and becomes difficult to add colour -->
+        <tr><td>
+            <!-- title of website don't stick on borders -->
+            <table border="0" width="85%" align="center" cellpadding="15">
+                <!-- tr>td*7 - to get all the 7 columns at once -->
+                <tr>
+                    <td><font face="Open Sans" size="5" color="black"><strong>MSDians</strong></td>
+                    <td width="20%"></td>
+                    <!-- When you dont have any link to add in href then always use # -->
+                    <td><a href="#"><font color="black">Home</font></a></td>
+                    <td><a href="#"><font color="black">Services</font></a></td>
+                    <td><a href="#"><font color="black">Skills</font></a></td>
+                    <td><a href="#"><font color="black">Team</font></a></td>
+                    <td><a href="#"><font color="black">Contact</font></a></td>
+                </tr>
+            </table>
+        </td></tr>
+    </table>
+<!-- end header -->
+
+<!-- Home Section -->
+
+<table>
+<tr><td>
+<!-- nested table -->
+<table width="85%" border="0" align="center" cellpadding="15px">
+    <tr>
+        <td> <h1><font face= "Open Sans" font size="7"></font>Hello, </h1>
+            <h1><font face= "Open Sans" font size="5"></font>I'am Aniket Kale</h1>
+        <font face= "Open Sans" font size="5">This is my first try on a complete HTML website, and I want to be a full time web developer.</font>
+        <hr>
+        <pre>
+        <a href="/DEMO_HTML_WEBSITE/Aniket Kale_CV_German_2024.pdf"Download><button type="button">Download my CV</button></a>  <a href="https://wa.me/message/HVDGLK5KPHRTN1" target="_main"><button type="button">Whatsapp Chat</button></a>
+        </pre>
+        </td>
+        <td>
+            <img src="/DEMO_HTML_WEBSITE/About me.png" height="600px"alt="about me">
+        </td>
+    </tr>
+
+</table>
+</td></tr>
+</table>
+
+<!-- End Home Section -->
+
+<!-- Service Section -->
+<table width="100%" bgcolor="#fafbff">
+<tr><td><br><br><br><br>
+    <table width="85%" border="0"align="center" cellpadding="15px">
+        <tr align="center">
+            <td colspan="3">
+                <font face="Open Sans" font size="5">SERVICES</font><br>
+                <hr align="center" width="10%">
+                <font face="Open Sans" font size="2">These are our services</font>
+
+            </td>
+        </tr>
+<tr>
+    <td align="center">
+        <img src="/DEMO_HTML_WEBSITE/Designer.png"  width ="25%"alt="Designer"><br>
+        <font face="Open Sans" size="5">Machine Design Engineer</font><br>
+        <font face="Open Sans" size="3">Machanical and Electrical designing slong with project planning</font>
+    </td>
+    <td align="center"> <img src="/DEMO_HTML_WEBSITE/Product Manager.png"  width ="25%"alt="Designer"><br>
+        <font face="Open Sans" size="5">Product Management Engineer</font><br>
+        <font face="Open Sans" size="3">Product release and new product development assistance with complete hands on training</font>
+    </td>
+
+    <td align="center">    
+            <img src="/DEMO_HTML_WEBSITE/Designer.png"  width ="25%"alt="Designer"><br>
+        <font face="Open Sans" size="5">Mechaine Design Engineer</font><br>
+        <font face="Open Sans" size="3">Machanical and Electrical designing slong with project planning</font>
+    </td>
+</tr>
+</table><br><br><br><br>
+</td></tr>
+</table>
+<br>
+<!-- End Service Section -->
+
+<!-- Skills Section -->
+
+<table width="100%" bgcolor="orange">
+<tr><td><br><br><br><br>
+    <table width="85%" border="0"align="center"cellpadding="15px">
+        <tr align="center">
+            <td colspan="2"><font face="Open Sans" font size="5" color="black ">SKILLS</font>
+                <hr align="center" width="10%" color="black">
+            </td>
+        </tr>
+        <tr align="center">
+            <!-- creating progress bar - <progress value="" max="">text</progress> -->
+            <td><label><font siz5="5" color="black">HTML 5</font></label><br><progress value="35" max="100">35%</progress></td>
+            <td><label><font siz5="5" color="black">Soliworks</font></label><br><progress value="95" max="100">95%</progress> </td> 
+        </tr>
+
+        <tr align="center">
+            <td><label><font siz5="5" color="black">Salseforce</font></label><br><progress value="70" max="100">70%</progress></td>
+            <td><label><font siz5="5" color="black">SQL</font></label><br><progress value="50" max="100">50%</progress></td>
+        </tr>
+    </table><br><br><br><br>
+</td></tr>
+</table>
+<br>
+<!-- End Skills Section -->
+
+<!-- Meet the team Section -->
+<table width="100%">
+<tr><td><br><br><br><br>
+
+    <table width="85%" border="0" align="center" cellpadding="15px">
+        <tr align="center">
+            <td colspan="3"><font size="5">Meet the TEAM</font></td>
+        </tr>
+
+        <tr align="center">
+            <td><img src="/DEMO_HTML_WEBSITE/Male.png" width="30%"><br><font size="6">Aniket Kale</font><br><font size="4">CEO</font></td>
+            <td><img src="/DEMO_HTML_WEBSITE/Male.png" width="30%"><br><font size="6">Virat Kohli</font><br><font size="4">Mechanical Engineer</font></td>
+            <td><img src="/DEMO_HTML_WEBSITE/Male.png" width="30%"><br><font size="6">Sunil Gavaskar</font><br><font size="4">Salseforce Admin</font></td>
+        </tr>     
+    </table><br><br><br><br>
+</td></tr>
+</table>
+<br>
+<!-- End meet the team Section -->
+
+<!-- Contact Section- making a FORM -->
+<form>
+<table width="100%" bgcolor="orange">
+    <tr><td><br><br><br><br>
+
+    <table border="0" width="50%" align="center" cellpadding="15px">
+        <tr align="center">
+            <td colspan="2"><font size="5">Contact Form</font>
+            <hr width="20%" color="black"></td>
+        </tr>
+        <tr align="center">
+            <td>Name</td>
+            <td><input type="text" placeholder="Enter your name"</td>
+        </tr>
+        <tr align="center">
+            <td>Phone No.</td>
+            <td><input type="number" placeholder="Enter your mobile no."></td>
+        </tr>
+
+        <tr align="center">
+            <td>Feedback</td>
+            <td><textarea rows="4" placeholder="Enter your valuable opinion for this website "></textarea></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><input type="submit"></td>
+        </tr>
+    </table><br><br><br><br>
+     </td></tr>
+</table>
+</form>
+<!-- End Contact Section -->
+
+<!-- footer start -->
+<table width="100%" align="center ">
+<tr><td>
+    <table width="85%" border="0" cellpadding="15px" align="center">
+        <tr align="center">
+            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAjVBMVEV3s9T///9mlbBqrdFvr9J4tdZysdPL4O2rzuODudd+ttacxt5llLDZ6PJVi6mmy+G31efE3Ov2+vzh7fWUwtzo8feLvdlpm7fT5fBdkKxtob7H1uDv9vrl7/Zyq8rj6u+5zNinwM+KrMHT3uWWs8V8o7rY4um0yNW92Ol1nrdknbyRscRupMHF1d+gu8sB5TA0AAAMcUlEQVR4nOWdeXubOBCHMRLCHAYf+CB10qbHrrvN9vt/vJXA2GCQ0OhAuPv7b/d5kurNSDOSmBl5C+va7lfhZZ0nxSGKg8ALgjg6FEm+voSr/db+P+/Z/OX70zqJEMKYUHldEYIJxghFyfq0tzkIW4TncBlRNNwjexQlpaDRMrSFaYNwv0kY2wjaAyj9gWRjg9I44SknaNRwXHN6+cn0gIwSbsMCAW3XtyUqQqP+xyAhw9Oia8QgzQ3LFOEux2bwrpA43xkamRnCTaw5OfsiON4YGZsBwvNyPCYoMRK0PM+A8DVBNvCukKh4dUy4O1jkqxkPmgtSi/D1gKzi1UIHLTtqEJ6LKfgqxkJjPSoTbnPL87MtgnLlXYAq4WZCvooRXyYl3MUmw7uccKzmcpQIp5ygd9GpOhHhiUxvwCsjVjh5wAmTqTzokFBinXBnZYMmL0KgqxFIuHRpwFpoaZFwG7lagW3hCBQbIYSrOfAx4ZUdwrX7GdoIrW0QFnOxIBMujBNuHexiRMKx7GKUJNy7jRFDIpKXq3KEq/kswbuQnL+RIgznCEgRpe4cZQg38wSkiDInKgnCGUWJR8lEjXHCGQNKIY4SrucVJR6FRxHHCGdtQaZRK44QztbJ3DXmbsSEMw0TXY0EDSHhLAN9X+LQLyLcPwcgRRRt4ASE2/ntRXkigm24gDB2PW6AYhXCWZ0HxyQ4L3IJZx7pH8WP/DzCJ3Gjd3EdKodw+1wWZMIcb8MhjFyPV0ERhHD5fCakRhy+Kh4k3D3bIqyFBi/8BwmfJ9R3RWQJk6clHPoyNUB4es45yoQGvi8OED6jl2k0ME/7hPkzE+L+h/Ae4ZP60UZ9f9ojjJ/VzdQivVPGI+FGa45Waelu/0T4MWfzgVBjP0ow8vLN7vXkNJWBztOtkDBXNQBGSdgkn+0nS3gbEslFhGe1oRF06N53rZyl3FChbppfl7BQMSFBeT91MHdnRtI973cIXxWGxUsbdJjWgDr5qB3CA/y3kZh3k+cwNeXAI1QI9sL0HWd3WZ2w3yaEm3Bop9uSs8XYNmKLEL4K8VgCtqsksfZKbBGCHSkazzB3tI1vHxTvhOBYODJFFf9sZtSKiXfCJXAsRC5H0M1OvjW4OyF0PgVSgKrbJF3hPuEG+LeWzg/UO62oityOGDdC4GwinPvXATm5Xb6fExvCHfAvTeRrIFX2gvrCTdRvCKHHJgwoSnZyO3k7RDWE0MUCIXRkxC5hCCaEJCIr7Oj1hcMOYQH9+ceTtFDgv58RFW3CLXweYQHRoxR+vQFdL2w81T8y/gZAdDlNa0LwJPW8l+8AQjdJAUWLED6LgmMGIDw5IUR3QoUBBMfykzzh2QlhXelWEarckr6kXwFGdOJqan9fESr8dPCWZoDyI0dn/YZwrzSH/PKLNKCbXU298WKE0INTrZf0pzSho+/m1RHKU/332TT9LAn45Z/A+OhlVF3XMEK1P3Dgl7/lAD9lL4aHLitcE6otQzpNfbmQ+Dnzj25s6OFzRai4Lw7e/PJfCcBtmfq+K8KwIoResjUKfClf85MCuiJkV26exj3Khy/ha36VFNDVLGXZfJ5ONPbTX2OAXzIKmL65IkSMUNXRsL2pn420VdlXgB+uAFnM9zT2/TQklu8ji5ABvjgDZJtvT+fsRn1NKQR8d7oIvSr929PaUX2IN6fVHPXNjRcuuqvxFpHOnpHOQQHhj9QxILua97QONtTXCA7C3zLmRo2NVkl44Wndg1Ff4/siN+PQjdZCW089WDAFvl/yLt3+ytx6mUp472nmvVAj8rZu1JGmhsapLrzyQs3Dqc9die9l+mFmmBoioXfRJPygU5E3S53PUUp48da6Fwwp14j+DJJxydpTzrds9OLz3Kmb79tdkdxLtH9Jyt3YGBihthJP4ZNFVwE1Imd36uYyv6vCM/BZiBK+DyM6+ebUETl4+pkSzIicc6KjZJq2Is9EPTPdnXE+YrivtY09AyGrMuJfw4jOSzUNheSUGzGcz1NDhHRjU/49jDiHoGhCPtfZLBK3iIEhK9IjRvpjmNBxb4bAiC+tDvt+xtmeuq18jw3EQ6bgjc7TkvNR2GnBX2RiT8PEjFjyvuw7bORD9zTa+9JGKX+eugz8hYGzxVUfDJGXvOCu9DbRPx82CtgFPs+fOosZ9HyofcZvVDsbTtx3hkjP+Lr3NHex7angi6IbRHLRvmtri32l4F8QO1mLJNS9L22rugHnhgypKihiuk4arzTvvLuq5il/KY528CPx5bTRfjKqI7zX+27RE5umvKPigvVmEg2+aYG4MviyEtrqfXt6VOVP/ZL/6fvs8RHblWKhqQJUrPv9sCcW91O+t1kseJXsJOr+XXZGSt6r74dms+rY/tQvuYGf6jI4UwferthF+ozVN2DTe8ZqnoqSwPdBD5GQwfKNUNvnVN/xDV/b1ksx4zvUBQsb3ZGjgrOf3eoWS1e5GCbDBVPAlqKfCVPeOu/UECIoRtVsEVvl0xjPUK6Wop+J6zHuq3Hk9Ri9bvBIL6+Nq+NIWGS6vheFD2MlYludOttIKzdRoGqDOpbWty8QOsgUiKnHs2tuovm6q9rbjGdJv0qW+CkjXvNLbZR7sD34uBWlpTqMa46wjRZ7wYecFSWlaoRrnreVWoHgJa0Qxe5GWmrtVG+5+mr1FiOqEceChrSU3OGt3sJ0zK9Vh0U/k6+sEUrlbh41NTOWMgoaxHcjhCoev+oxqFy7JqMasRxNBpeRQulUq3bNWs7EFfGngWeoFQhb9YfWiueuEzUt9aOGwixt1ZCq1AHLKTim9WKUqa4RSsGZtuuA7RXMX4OGn0EKo4cE37l1arktFszXuxu6GH1An4m+FEbYqce3N02bbbhuZPz0D/gf7vRUsNrXIai34eyCSt2n/gLnqj70xbDcPPhqxRRS4d4VPBv3obeJtaBfKfCuLtXPvqqZ8VMJLUPt9aeB9hgCqvqiUR+olFbjD3D5W6/HkO2uYzd/Q3c48PD/OYOW3vT7RNk5QnXUzFQ/+wWdql9TaBXqQK8v+43K64vUyozA8wY1IXQZDvRrs3Hl9qD7TPVLQEMGtgqhy3Cw594EeZKB93JnTKUZWYUYcJIO9k2cpIljy4yptB3LFDpJh3tfTtOeI/Buq5Exvkv4HFYNDvxXOP1LJ8usP/r3uZp9H4sdXxRK4Dg9aCfLIaRTNW0x/hSeHVmNnw/0M9w+wpMZMWiOVDdDcq9V96znhI4J9ft5K+qBsUzfB2frmRWD+8BKW0E/72l74nYY0zLz+5CfK0BgPb+oJ/vUtQMdRmbJ8nfnivzfrFqvwN8q7Ktv9xA1oI+Wz6khsx9/N6b8XpXzg7czwrcRps86D96OXUOy+Vr+ppDf0mqKgqvBR963mL4AJGBbufSBki7Ksqz/J9SPjr1R4qg79dvxkbH57yPwN42/M+OmdIAasjdblSwo81aQs6RzumM9pl1TplALSr335PJdOWrJ9ppUaGwj9WaX03fXAupcb6aE916SfHfN+dt5bFGmqUIXO9m382bw/mGgVlEn/f7hs769BnjD8s9/h3QGBcoKAr0l+4zvAT/uR0cI//w3nefQKwAk+Lvc/4O31V3XYMPUO1FIEW6dB35pEcHFsoBwsX8Wb4NEaR4iwmdxqFw3Ok7ossxcXkj8qI+YcHGZPyJ6vJiBES7Wc0dE3EAoSTj3yM+P9NKE87biqAVlCOeMKAEoQzhfd4MuEqOXIZxr0BgJExDCeYZ+caAHEmpWAVoRkczIlSRcbON5RQ0cy2aOyRLO7LwoOA+qE84pashECQVCl4+JdwV6mhBC6PIx8ZZwBEreBBG6e4a6JeFj5/qEix1xGzcIGby6N0i4WCQuzYiGvi6ZJlyciKvViEXdFwwSsnfvnbx/O9J9wSRht6/FRMIxdAXqELKOHNOakYxdxxgnbPpaTMWXK5dMKRMuFmcjfY5khIqRR5csES4Wr4cpGNHhdXwolgipyzlYnqsEHdQcjClCasfCIiNBhZb9jBDS9bjEVrZyhKClxvozSEi1iU33O/QIjlXjQ1dmCOmCNNgJkArjXHP53WSKkCo01dMRo0LqnlBOBgnpLkAfkjA8A00m7jJKyHTKCVJ0PIQeWnKF04NYxgmp9psEY6AtCf2BZKPVlIAjG4RM53AZIcY5BkoNhzGKlqENOiZbhJX2p3USYcQ4u6SEkTE2hKNkfbIFV8kqYa3tfhVe1nlSHKI4CLwgiKNDkeTrS7jaG/Upw/oP1dyktZYkJxEAAAAASUVORK5CYII=" width="50" alt="call"><br>Phone no.
+            <br>+91-9004226568</td>
+            <td><img src="https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png" width="80"alt="Mail"><br>Mail ID<br>kale.aniket99@gmail.com</td>
+            <td><img src="https://static.vecteezy.com/system/resources/previews/023/986/562/original/telegram-logo-telegram-logo-transparent-telegram-icon-transparent-free-free-png.png" width="80" alt="Telegram"><br>Telegram us<br>+49-17683144277</td>
+        </tr>
+
+    </table>
+
+
+
+
+
+
+
+</tr></td>
+</table>
+
+
+
+
+<!-- Footer end -->
+
+
+
+
+
+
+
+</body>
+</html>
